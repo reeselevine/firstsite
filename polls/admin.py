@@ -1,5 +1,5 @@
-from django.contrib import admin
 from polls.models import Choice, Question
+from django.contrib import admin
 
 class QuestionAdmin(admin.ModelAdmin):
     fieldsets = [
